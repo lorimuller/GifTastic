@@ -1,0 +1,73 @@
+.jumbotron {
+    padding: 20px;
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 30px;  
+  } 
+
+  h1{
+    font-family:'Abril Fatface', cursive;
+    font-weight: 500;
+    font-size: 50px;
+   text-align: center;
+  }
+
+  h2{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    color: #A722C1;
+  }
+
+  label {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+  }
+
+  p {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #D3A4FB;
+    color: grey;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  /* #gifArea {
+float: center;
+  } */
+
+#feel{
+
+    width: 100px;
+    color: #D3A4FB;
+    background-color: black; 
+    outline: 0 !important;
+    border: none;
+    float: center;
+}
+
+
+form {
+      text-align: center;
+      float: center;
+      margin-top: 20px;
+  }
+
+
+  .btn:hover {
+   
+    color: black;
+    background-image:none !important;
+    background-color:#8B749E !important;
+}
+  
+ 
