@@ -53,6 +53,25 @@ float: center;
     outline: 0 !important;
     border: none;
     float: center;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.newButton{
+
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 10px;
+   border-radius: 7px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
 }
 
 
@@ -70,4 +89,7 @@ form {
     background-color:#8B749E !important;
 }
   
- 
+body {
+    
+    background-image: url("../css/images/pipes/pipes.png");
+    }

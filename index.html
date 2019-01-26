@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  
+<title>GifTastic</title>
+
+<meta charset="utf-8" />
+
+<!-- Added link to the jQuery Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css" />
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Acme|Cabin|Indie+Flower|Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Acme|Archivo+Narrow|Cabin|Indie+Flower|Quicksand" rel="stylesheet">
+<script src="assets/gif.js"></script>
+
+</head>
+
+<body id="wholeThing">
+
+    <div style="background-color:transparent !important" class="jumbotron" id="header">
+        <h1>What feeling do you want to see?!</h1>
+        <h2>Click to see if you can feel it too or find a feeling of your own</h2>
+        <h2>Click the pic to make it play, click again to pause </h2>
+    </div>
+
+    <div class="row mt-4">
+        <div class="container">
+            <div class="btn-group center inline flex-container">
+                <button class="btn btn-primary mr-2" id="feel" data-search="Happy">Happy</button></br>
+                <button class="btn btn-primary mr-2" id="feel" data-search="Sad">Sad</button>
+                <button class="btn btn-primary mr-2" id="feel" data-search="Anxious">Anxious</button>
+                <button class="btn btn-primary mr-2" id="feel" data-search="Indifferent">Indifferent</button>
+                <button class="btn btn-primary mr-2" id="feel" data-search="Whimsical">Whimsical</button>
+                <br>
+            </div>
+            <div id="myButtons" class="flex-container"></div>
+        </div>
+    </div>
+
+    <form class="form-center" id="feelingSearch">
+        <div class="form-group">
+            <label for="feelingInput">Search a feeling: </label>
+            <input type="text" id="feelingInput">
+        
+        <!-- Button triggers show to be added -->
+        <input class="inline" id="addFeel" type="submit" value="submit">
+        </div>
+    </form>
+
+
+    <div class="row">
+        <div class="container">
+            <span>
+                <div id="gifArea"></div>
+            </span>
+        </div>
+    </div>
+    <!-- <input id="add-hero" type="submit" class="btn btn-info mb-2" data-toggle="buttons" value="Submit"> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+    </script>
+</body>
+
+</html>
